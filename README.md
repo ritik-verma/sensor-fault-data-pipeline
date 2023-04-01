@@ -1,3 +1,7 @@
+# Sensor Fault Data Ingestion Pipeline
+
+It is a data ingestion pipeline where data from sensors is passed to kafka server (use confluent kafka) and then finally stored in a nosql database i.e. mongodb.
+
 # confluent-kafka-python
 
 This repo help us to know how to publish and consume data to and from kafka confluent in json format.
@@ -71,3 +75,4 @@ Run docker image
 ```
 docker run -it -v $(pwd)/logs:/logs  --env-file=$(pwd)/.env data-pipeline:lts
 ```
+
