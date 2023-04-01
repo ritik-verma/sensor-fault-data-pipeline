@@ -1,0 +1,15 @@
+.env/*
+.idea
+venv/
+*.egg-info
+logs/*
+*.log
+*.pyc
+Credential.md
+env/
+test.py
+flowchart/
+kafka.egg-info/
+.vscode/
+.ipynb_checkpoints/
+assignment/
